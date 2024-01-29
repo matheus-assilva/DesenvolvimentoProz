@@ -8,13 +8,18 @@
 # Como desafio, imprima eles em ordem decrescente (20, 19, 18...)
 
 # Usando for
-for andar in range(20, 0, -1):
+for andar in range(1, 21, 1):
     if andar != 13:
         print(andar)
 
 # Usando while
-andar = 20
-while andar >= 1:
+andar = 1
+while andar <= 20:
     if andar != 13:
         print(andar)
-    andar -= 1
+    andar += 1
+
+# Usando for de mandeira decrescente
+for andar in range(20, 0, -1):
+    if andar != 13:
+        print(andar)
